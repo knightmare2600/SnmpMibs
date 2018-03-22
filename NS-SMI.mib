@@ -84,7 +84,9 @@ netscreenIp OBJECT IDENTIFIER ::= { netscreen 17 }
 
 netscreenVR OBJECT IDENTIFIER ::= { netscreen 18 }
 
-netscreenChasis OBJECT IDENTIFIER ::= { netscreen 21 }
+netscreenChassis OBJECT IDENTIFIER ::= { netscreen 21 }
+
+netscreenUAC OBJECT IDENTIFIER ::= { netscreen 22 }
 
 netscreenSettingMibModule OBJECT IDENTIFIER ::= { netscreenSetting 0 }
 

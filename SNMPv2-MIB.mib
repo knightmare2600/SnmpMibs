@@ -1,3 +1,5 @@
+-- http://www.ietf.org/rfc/rfc3418.txt
+
    SNMPv2-MIB DEFINITIONS ::= BEGIN
 
    IMPORTS
@@ -149,7 +151,6 @@
        DESCRIPTION
                "A value which indicates the set of services that this
                entity may potentially offer.  The value is a sum.
-
                This sum initially takes the value zero. Then, for
                each layer, L, in the range 1 through 7, that this node
                performs transactions for, 2 raised to (L - 1) is added
@@ -439,7 +440,6 @@
    -- Note the linkDown NOTIFICATION-TYPE ::= { snmpTraps 3 }
    -- and the linkUp NOTIFICATION-TYPE ::= { snmpTraps 4 }
    -- are defined in RFC 2863 [RFC2863]
-
    authenticationFailure NOTIFICATION-TYPE
        STATUS  current
        DESCRIPTION
@@ -487,6 +487,7 @@
    snmpMIBGroups  OBJECT IDENTIFIER ::= { snmpMIBConformance 2 }
 
    -- compliance statements
+
    --    ::= { snmpMIBCompliances 1 }      this OID is obsolete
    snmpBasicCompliance MODULE-COMPLIANCE
        STATUS  deprecated

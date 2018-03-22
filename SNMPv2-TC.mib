@@ -190,8 +190,6 @@ RowStatus ::= TEXTUAL-CONVENTION
             creation and deletion of conceptual rows, and is used as the
             value of the SYNTAX clause for the status column of a
             conceptual row (as described in Section 7.7.1 of [2].)
-
-
             The status column has six defined values:
 
                  - `active', which indicates that the conceptual row is
@@ -238,7 +236,6 @@ RowStatus ::= TEXTUAL-CONVENTION
             not available for use by the managed device, and an attempt
             to make it so would fail because the agent has insufficient
             information (the state column has value `notReady').
-
 
                                      NOTE WELL
 
@@ -497,7 +494,6 @@ value         |              |      see 1|          ->C|          ->D
             `createAndWait' in order to negotiate creation of the
             conceptual row.
 
-
                                      NOTE WELL
 
                  Regardless of the method used to determine the column
@@ -583,7 +579,6 @@ value         |              |      see 1|          ->C|          ->D
             value of the status column becomes `notInService', and we
             proceed to interaction 4.
 
-
             Interaction 4: Making the Conceptual Row Available
 
             Once the management station is satisfied with the values
@@ -629,7 +624,6 @@ value         |              |      see 1|          ->C|          ->D
             are set to, and left in, the notInService state for a
             prolonged period exceeding that which is considered normal
             for such a conceptual row.
-
 
                              Conceptual Row Suspension
 
@@ -761,7 +755,6 @@ StorageType ::= TEXTUAL-CONVENTION
                      readOnly(5)     -- e.g., completely in ROM
                  }
 
-
 TDomain ::= TEXTUAL-CONVENTION
     STATUS       current
     DESCRIPTION
@@ -791,4 +784,3 @@ TAddress ::= TEXTUAL-CONVENTION
 
 
 END
-

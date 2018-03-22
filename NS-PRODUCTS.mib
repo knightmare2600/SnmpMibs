@@ -111,6 +111,7 @@ netscreenSSG140    OBJECT IDENTIFIER ::= { netscreenProducts 52 }
 netscreenSSG320    OBJECT IDENTIFIER ::= { netscreenProducts 54 }
 
 netscreenSSG350    OBJECT IDENTIFIER ::= { netscreenProducts 55 }
+
 END
 
 

@@ -1,0 +1,69 @@
+  [OID] wgAlarmHostname
+  [OID] wgAlarmId
+  [OID] wgAlarmLabel
+  [OID] wgAlarmLevel
+  [OID] wgAlarmMsg
+  [OID] wgAlarmTime
+  [OID] wgAlarmTrapEnable
+  [OID] wgSysTrapControl
+  [OID] wgSysTrapObjects
+  [OID] wgSysTraps
+  [OID] wgSysTrapsPrefix
+  [OID] wgSystemConfigMIB
+  [NOTIFICATION] wgAlarmTrap
+  [NOTIFICATION] wgSnmpShutdown
+  [NOTIFICATION] wgSnmpStart
+  [OID] .1.3.6.1.4.1.3097.2
+  [OID] .1.3.6.1.4.1.3097.2.3
+  [OID] .1.3.6.1.4.1.3097.2.3.0
+  [NOTIFICATION] .1.3.6.1.4.1.3097.2.3.0.1
+  [TRAP] .1.3.6.1.4.1.3097.2.3.1
+  [TRAP] .1.3.6.1.4.1.3097.2.3 6 1
+  [TRAP] .1.3.6.1.4.1.3097.2.3 enterpriseSpecific 1
+  [TRAP] .1.3.6.1.4.1.3097.2.3 generic-trap:enterpriseSpecific(6) specific-trap:1
+  [NOTIFICATION] .1.3.6.1.4.1.3097.2.3.0.2
+  [TRAP] .1.3.6.1.4.1.3097.2.3.2
+  [TRAP] .1.3.6.1.4.1.3097.2.3 6 2
+  [TRAP] .1.3.6.1.4.1.3097.2.3 enterpriseSpecific 2
+  [TRAP] .1.3.6.1.4.1.3097.2.3 generic-trap:enterpriseSpecific(6) specific-trap:2
+  [NOTIFICATION] .1.3.6.1.4.1.3097.2.3.0.3
+  [TRAP] .1.3.6.1.4.1.3097.2.3.3
+  [TRAP] .1.3.6.1.4.1.3097.2.3 6 3
+  [TRAP] .1.3.6.1.4.1.3097.2.3 enterpriseSpecific 3
+  [TRAP] .1.3.6.1.4.1.3097.2.3 generic-trap:enterpriseSpecific(6) specific-trap:3
+  [OID] .1.3.6.1.4.1.3097.2.4
+  [OID] .1.3.6.1.4.1.3097.2.4.1
+  [OID] .1.3.6.1.4.1.3097.2.4.2
+  [OID] .1.3.6.1.4.1.3097.2.4.3
+  [OID] .1.3.6.1.4.1.3097.2.4.4
+  [OID] .1.3.6.1.4.1.3097.2.4.5
+  [OID] .1.3.6.1.4.1.3097.2.4.6
+  [OID] .1.3.6.1.4.1.3097.2.5
+  [OID] .1.3.6.1.4.1.3097.2.5.1
+  [OID] enterprises.3097.2
+  [OID] enterprises.3097.2.3
+  [OID] enterprises.3097.2.3.0
+  [NOTIFICATION] enterprises.3097.2.3.0.1
+  [TRAP] enterprises.3097.2.3.1
+  [TRAP] enterprises.3097.2.3 6 1
+  [TRAP] enterprises.3097.2.3 enterpriseSpecific 1
+  [TRAP] enterprises.3097.2.3 generic-trap:enterpriseSpecific(6) specific-trap:1
+  [NOTIFICATION] enterprises.3097.2.3.0.2
+  [TRAP] enterprises.3097.2.3.2
+  [TRAP] enterprises.3097.2.3 6 2
+  [TRAP] enterprises.3097.2.3 enterpriseSpecific 2
+  [TRAP] enterprises.3097.2.3 generic-trap:enterpriseSpecific(6) specific-trap:2
+  [NOTIFICATION] enterprises.3097.2.3.0.3
+  [TRAP] enterprises.3097.2.3.3
+  [TRAP] enterprises.3097.2.3 6 3
+  [TRAP] enterprises.3097.2.3 enterpriseSpecific 3
+  [TRAP] enterprises.3097.2.3 generic-trap:enterpriseSpecific(6) specific-trap:3
+  [OID] enterprises.3097.2.4
+  [OID] enterprises.3097.2.4.1
+  [OID] enterprises.3097.2.4.2
+  [OID] enterprises.3097.2.4.3
+  [OID] enterprises.3097.2.4.4
+  [OID] enterprises.3097.2.4.5
+  [OID] enterprises.3097.2.4.6
+  [OID] enterprises.3097.2.5
+  [OID] enterprises.3097.2.5.1

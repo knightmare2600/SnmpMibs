@@ -217,6 +217,7 @@ hrDeviceNonVolatileMemory OBJECT-IDENTITY
     STATUS current
     DESCRIPTION
         "The device type identifier used for a non-volatile memory
+
         storage device."
     ::= { hrDeviceTypes 21 }
 

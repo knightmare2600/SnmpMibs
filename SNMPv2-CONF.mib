@@ -71,7 +71,6 @@ BEGIN
     Text ::= value(IA5String)
 END
 
-
 -- definitions for compliance statements
 
 MODULE-COMPLIANCE MACRO ::=
